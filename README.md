@@ -7,9 +7,9 @@ Esta guía explica cómo desplegar SonarQube en una máquina virtual (VM), confi
 ![image](https://github.com/user-attachments/assets/43299d2b-b731-4b88-98d9-5adf66896bb6)
 
 
-## 🚀 Paso 1: Configurar SonarQube en la VM
+##  Paso 1: Configurar SonarQube en la VM
 
-### 🔹 Instalar Docker y Docker Compose
+### Instalar Docker y Docker Compose
 Ejecuta los siguientes comandos para instalar Docker y Docker Compose:
 
 ```bash
@@ -22,7 +22,7 @@ sudo systemctl enable docker
 ![image](https://github.com/user-attachments/assets/adc18dd7-e9db-4506-a66d-0022426fe6e5)
 
 
-### 🔹 Configurar y ejecutar SonarQube
+### Configurar y ejecutar SonarQube
 
 Crea un archivo `docker-compose.yml` en tu VM:
 
@@ -63,7 +63,7 @@ Accede a SonarQube en `http://<IP_DE_LA_VM>:9000/` con las credenciales predeter
 
 
 
-## 🔑 Paso 2: Configurar un Token de Autenticación en SonarQube
+##  Paso 2: Configurar un Token de Autenticación en SonarQube
 
 1. Ve a **My Account** en SonarQube.
 2. Dirígete a la pestaña **Security**.
@@ -115,14 +115,13 @@ jobs:
 ![image](https://github.com/user-attachments/assets/af029954-7c65-4623-a50c-ee460157136d)
 
 
-## 📊 Paso 4: Verificar los Resultados en SonarQube
+## Paso 4: Verificar los Resultados en SonarQube
 
 Después de ejecutar el pipeline, dirígete a **SonarQube** y verifica los resultados del análisis de código.
 
 ![image](https://github.com/user-attachments/assets/fa1ee6be-10af-46bd-bf36-c6dcc3d5f510)
 
-## ✅ Conclusión
+## Conclusión
 
 Siguiendo estos pasos, has integrado SonarQube en una máquina virtual y lo has configurado para analizar automáticamente el código en un pipeline de CI/CD con GitHub Actions.
 
-¡Felicidades! 🎉 Ahora puedes mejorar la calidad del código de tu proyecto con SonarQube.
